@@ -1,5 +1,5 @@
 :root {
-    --primary: #AB7442;
+    --primary: #0068b5;
     --light: #F5F5F5;
     --dark: #353535;
 }
@@ -23,22 +23,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
-
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
 
 /*** Button ***/
 .btn {
