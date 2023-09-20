@@ -8254,6 +8254,10 @@ fieldset:disabled .btn {
     background-color: #fff !important
 }
 
+.bg-blue {
+    background-color: #0068b5 !important
+}
+
 .bg-transparent {
     background-color: rgba(0, 0, 0, 0) !important
 }
