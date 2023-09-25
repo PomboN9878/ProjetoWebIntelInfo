@@ -9,16 +9,31 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
-     <!-- Libraries Stylesheet -->
-     <link href="lib/animate/animate.min.css" rel="stylesheet">
-     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
- 
-     <!-- Customized Bootstrap Stylesheet -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-     <!-- Template Stylesheet -->
-     <link href="css/style.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .carousel-caption h5,
+        .carousel-caption p {
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,25 +68,91 @@
     <main class="shadow p-3 mb-5 bg-body rounded mx-auto">
         <div class="container p-5">
             <h1 class="text-center" id="introducao">Introdução</h1>
-    
-            <p class="lead">A Intel Corporation (com Intel, sendo o acrônimo de Integrated Electronics) é uma empresa multinacional e de tecnologia sediada em Santa Clara, Califórnia, no Vale do Silício.</p>
-    
-            <p>A Intel é uma das líderes globais na fabricação de processadores, placas de vídeo, tecnologias de memória, nuvem, Internet das Coisas e conectividade 5G. Destaca-se no mercado de PCs, com a linha de processadores Intel Core, que abrange desde modelos de entrada a chips de alto desempenho para games.</p>
-    
-            <p>Atualmente, a Intel mantém uma posição dominante no mercado de processadores, tanto em PCs quanto em servidores, com uma participação de mercado superior a 72%, apesar do aumento da concorrência da rival AMD.</p>
-    
+
+            <p class="lead">A Intel Corporation (com Intel, sendo o acrônimo de Integrated Electronics) é uma empresa
+                multinacional e de tecnologia sediada em Santa Clara, Califórnia, no Vale do Silício.</p>
+
+            <p>A Intel é uma das líderes globais na fabricação de processadores, placas de vídeo, tecnologias de
+                memória, nuvem, Internet das Coisas e conectividade 5G. Destaca-se no mercado de PCs, com a linha de
+                processadores Intel Core, que abrange desde modelos de entrada a chips de alto desempenho para games.
+            </p>
+
+            <p>Atualmente, a Intel mantém uma posição dominante no mercado de processadores, tanto em PCs quanto em
+                servidores, com uma participação de mercado superior a 72%, apesar do aumento da concorrência da rival
+                AMD.</p>
+
             <h1 id="historia" class="text-center">História</h1>
-    
-            <p>A Intel foi fundada em 18 de julho de 1968, com o seu primeiro nome sendo NM Eletronics, em homenagem aos sobrenomes dos criadores, pioneiros de semicondutores Robert Noyce e Gordon Moore (conhecido pela lei de Moore), com a empresa sendo amplamente associada à liderança executiva e à visão de Andrew Grove.</p>
-    
-            <p>Desde então, a Intel desempenhou um papel fundamental no avanço da tecnologia de semicondutores, impulsionando a inovação em microprocessadores e outros componentes essenciais para a indústria de computadores e eletrônicos.</p>
-    
+
+            <p>A Intel foi fundada em 18 de julho de 1968, com o seu primeiro nome sendo NM Eletronics, em homenagem aos
+                sobrenomes dos criadores, pioneiros de semicondutores Robert Noyce e Gordon Moore (conhecido pela lei de
+                Moore), com a empresa sendo amplamente associada à liderança executiva e à visão de Andrew Grove.</p>
+
+            <p>Desde então, a Intel desempenhou um papel fundamental no avanço da tecnologia de semicondutores,
+                impulsionando a inovação em microprocessadores e outros componentes essenciais para a indústria de
+                computadores e eletrônicos.</p>
+
             <h1 id="produtos" class="text-center">Produtos</h1>
-    
-            <p>A Intel é a segunda maior fabricante em valor de chips semicondutores do mundo com base na receita, sendo superada apenas pela Samsung. A empresa é a inventora da série de microprocessadores x86, encontrados na maioria dos computadores pessoais (PCs).</p>
-    
-            <p>Além dos processadores, a Intel também oferece uma ampla gama de soluções tecnológicas, incluindo placas gráficas, memória flash, chipsets e componentes para servidores e data centers.</p>
-    
+
+            <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="owl-carousel testimonial-carousel owl-theme" data-items="4">
+                        <!-- Item 1 -->
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/prodtuo.jpg"
+                                style="width: 120px; height: 120px;">
+                            <div class="testimonial-text text-center p-4">
+                                <p>Descrição de um processador Intel de alta qualidade</p>
+                                <h5 class="mb-1">R$ 2.304,00</h5>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/prodtuo.jpg"
+                                style="width: 120px; height: 120px;">
+                            <div class="testimonial-text text-center p-4">
+                                <p>Processador Intel Core i5-13600K (LGA 1700/14 Cores) </p>
+                                <h5 class="mb-1">R$ 2.304,00</h5>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/prodtuo.jpg"
+                                style="width: 120px; height: 120px;">
+                            <div class="testimonial-text text-center p-4">
+                                <p>Descrição de um processador Intel de alta qualidade</p>
+                                <h5 class="mb-1">R$ 2.304,00</h5>
+                            </div>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/prodtuo.jpg"
+                                style="width: 120px; height: 120px;">
+                            <div class="testimonial-text text-center p-4">
+                                <p>Descrição de um processador Intel de alta qualidade</p>
+                                <h5 class="mb-1">R$ 2.304,00</h5>
+                            </div>
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/prodtuo.jpg"
+                                style="width: 120px; height: 120px;">
+                            <div class="testimonial-text text-center p-4">
+                                <p>Descrição de um processador Intel de alta qualidade</p>
+                                <h5 class="mb-1">R$ 2.304,00</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>A Intel é a segunda maior fabricante em valor de chips semicondutores do mundo com base na receita, sendo
+                superada apenas pela Samsung. A empresa é a inventora da série de microprocessadores x86, encontrados na
+                maioria dos computadores pessoais (PCs).</p>
+
+            <p>Além dos processadores, a Intel também oferece uma ampla gama de soluções tecnológicas, incluindo placas
+                gráficas, memória flash, chipsets e componentes para servidores e data centers.</p>
+
             <h1 id="criadores" class="text-center">Criadores</h1>
             <div class="container-xxl py-5 text-center">
                 <div class="container">
@@ -83,8 +164,10 @@
                                 </div>
                                 <div class="p-4 text-center border border-5 border-white border-top-0 shadow">
                                     <h4 class="mb-3">Robert Noyce</h4>
-                                    <p>Foi um físico estadunidense e o inventor do microchip. Ele também foi co-fundador da Intel Corporation.</p>
-                                    <a class="fw-medium" href="#fund-1">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                                    <p>Foi um físico estadunidense e o inventor do microchip. Ele também foi co-fundador
+                                        da Intel Corporation.</p>
+                                    <a class="fw-medium" href="#fund-1">Read More<i
+                                            class="fa fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -95,8 +178,10 @@
                                 </div>
                                 <div class="p-4 text-center border border-5 border-white border-top-0 shadow">
                                     <h4 class="mb-3">Gordon Moore</h4>
-                                    <p>Foi um empresário e engenheiro estadunidense. Sendo co-fundador da Intel Corporation.</p>
-                                    <a class="fw-medium" href="#fund-2">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                                    <p>Foi um empresário e engenheiro estadunidense. Sendo co-fundador da Intel
+                                        Corporation.</p>
+                                    <a class="fw-medium" href="#fund-2">Read More<i
+                                            class="fa fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -104,17 +189,22 @@
                 </div>
             </div>
             <h2 id="fund-1">Robert Noyce</h2>
-    
-            <p>Robert Norton Noyce, também conhecido como Bob Noyce (Burlington, 12 de dezembro de 1927 – Austin, 3 de junho de 1990), foi um físico estadunidense e o inventor do microchip. Ele também foi co-fundador da Intel Corporation.</p>
-    
+
+            <p>Robert Norton Noyce, também conhecido como Bob Noyce (Burlington, 12 de dezembro de 1927 – Austin, 3 de
+                junho de 1990), foi um físico estadunidense e o inventor do microchip. Ele também foi co-fundador da
+                Intel Corporation.</p>
+
             <h2 id="fund-2">Gordon Moore</h2>
-    
-            <p>Gordon Earle Moore (São Francisco, 3 de janeiro de 1929 – 24 de março de 2023) foi um empresário e engenheiro estadunidense. Moore foi co-fundador da Intel junto com Robert Noyce e desempenhou um papel fundamental na revolução dos semicondutores.</p>
-    
-            <p>Além de sua contribuição para a Intel, Moore também é conhecido pela famosa "Lei de Moore", que previu corretamente o ritmo de crescimento exponencial na capacidade dos circuitos integrados.</p>
+
+            <p>Gordon Earle Moore (São Francisco, 3 de janeiro de 1929 – 24 de março de 2023) foi um empresário e
+                engenheiro estadunidense. Moore foi co-fundador da Intel junto com Robert Noyce e desempenhou um papel
+                fundamental na revolução dos semicondutores.</p>
+
+            <p>Além de sua contribuição para a Intel, Moore também é conhecido pela famosa "Lei de Moore", que previu
+                corretamente o ritmo de crescimento exponencial na capacidade dos circuitos integrados.</p>
         </div>
     </main>
-    
+
     <!-- Main End -->
 
     <!-- Footer Start -->
@@ -148,4 +238,5 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
