@@ -89,7 +89,7 @@ h6,
 
 h1,
 .h1 {
-    font-size: calc(1.375rem + 1.5vw)
+    font-size: calc(1.375rem + 1.5vw);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
@@ -176,6 +176,7 @@ ul {
 ol,
 ul,
 dl {
+    font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem
 }
@@ -245,6 +246,10 @@ a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
     color: inherit;
     text-decoration: none
+}
+
+.text-size-20 {
+    font-size: 20px;
 }
 
 pre,
@@ -484,8 +489,9 @@ progress {
     display: none !important
 }
 
-.lead {
-    font-size: 1.25rem;
+.lead { 
+    font-size: 17px;
+    color: #4d4d4d;
     font-weight: 300
 }
 
@@ -3083,22 +3089,22 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #AB7442;
-    border-color: #AB7442
+    background-color: #0068b5;
+    border-color: #0068b5
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #b8895e;
-    border-color: #b38255
+    background-color: #005291;
+    border-color: #005291
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #b8895e;
-    border-color: #b38255;
-    box-shadow: 0 0 0 .25rem rgba(145, 99, 56, 0.5)
+    background-color: #0068b5;
+    border-color: #0068b5;
+    box-shadow: 0 0 0 .25rem rgba(38, 71, 255, 0.5)
 }
 
 .btn-check:checked+.btn-primary,
@@ -8712,6 +8718,10 @@ fieldset:disabled .btn {
 
     .mt-sm-5 {
         margin-top: 3rem !important
+    }
+
+    .mt-sm-x {
+        margin-top: 100px;
     }
 
     .mt-sm-auto {
